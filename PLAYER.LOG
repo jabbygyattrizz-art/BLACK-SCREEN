@@ -1,0 +1,837 @@
+Mono path[0] = 'C:/Users/User/Downloads/RimWorld.v1.6.4633.ALL.DLC/RimWorld.v1.6.4633.ALL.DLC/RimWorld.v1.6.4633.ALL.DLC/RimWorldWin64_Data/Managed'
+Mono config path = 'C:/Users/User/Downloads/RimWorld.v1.6.4633.ALL.DLC/RimWorld.v1.6.4633.ALL.DLC/RimWorld.v1.6.4633.ALL.DLC/MonoBleedingEdge/etc'
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+Initialize engine version: 2022.3.35f1 (011206c7a712)
+[Subsystems] Discovering subsystems at path C:/Users/User/Downloads/RimWorld.v1.6.4633.ALL.DLC/RimWorld.v1.6.4633.ALL.DLC/RimWorld.v1.6.4633.ALL.DLC/RimWorldWin64_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 750 Ti (ID=0x1380)
+    Vendor:   NVIDIA
+    VRAM:     1999 MB
+    Driver:   32.0.15.8180
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.214 seconds
+- Finished resetting the current domain, in  0.002 seconds
+<RI> Initializing input.
+
+<RI> Input initialized.
+
+<RI> Initialized touch support.
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+UnloadTime: 2.109000 ms
+RimWorld 1.6.4633 rev1261
+Fallback handler could not load library C:/Users/User/Downloads/RimWorld.v1.6.4633.ALL.DLC/RimWorld.v1.6.4633.ALL.DLC/RimWorld.v1.6.4633.ALL.DLC/RimWorldWin64_Data/MonoBleedingEdge/data-000001892AD61840.dll
+Fallback handler could not load library C:/Users/User/Downloads/RimWorld.v1.6.4633.ALL.DLC/RimWorld.v1.6.4633.ALL.DLC/RimWorld.v1.6.4633.ALL.DLC/RimWorldWin64_Data/MonoBleedingEdge/data-000001893117A070.dll
+Fallback handler could not load library C:/Users/User/Downloads/RimWorld.v1.6.4633.ALL.DLC/RimWorld.v1.6.4633.ALL.DLC/RimWorld.v1.6.4633.ALL.DLC/RimWorldWin64_Data/MonoBleedingEdge/data-0000018932A20D10.dll
+Loading Combat Extended 16.7.0.0 (02c97df114-dev):
+Please report issues with CE to CE Team at https://github.com/CombatExtended-Continued/CombatExtended
+Combat Extended :: initialized
+[HostageTaker] Mod chargé avec succès.
+[HugsLib] version 12.0.0
+[Interaction Bubbles v4.2] Initialized
+<color=#66ffb5>[MeleeAnim]</color> Hello, world!
+Build date: 4/13/2026 8:02 AM
+Loaded assemblies (10):
+0BetterFloatMenu, Version=16.0.0.0, Culture=neutral, PublicKeyToken=null,
+0ColourPicker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+AMRetextureSupport, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null,
+Meta.Numerics, Version=3.1.0.0, Culture=neutral, PublicKeyToken=67d25c65a6631347,
+ModRequestAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+ModRequestAPI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+Unity.Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=null,
+zAnimationMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+AM.FacialAnimationPatch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null,
+zz.AM.CombatExtendedPatch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+<color=#66ffb5>[MeleeAnim]</color> Scanning 44 mods for animation data...
+<color=#66ffb5>[MeleeAnim]</color> Found 1 mod folders with animation data, total 69 loadable files.
+<color=#66ffb5>[MeleeAnim]</color> [<color=#63e0ff>Facial Animation Patch</color>] Successfully loaded Facial Animation patch.
+<color=#66ffb5>[MeleeAnim]</color> [<color=#63e0ff>CE Patch</color>] Loaded and applied CE patch.
+Exception reading Recipes_Settlers.xml as XML: System.IO.IOException: Could not open file
+[Ref 95FDA74C]
+  at System.IO.MemoryMappedFiles.MemoryMapImpl.OpenFile (System.String path, System.IO.FileMode mode, System.String mapName, System.Int64& capacity, System.IO.MemoryMappedFiles.MemoryMappedFileAccess access, System.IO.MemoryMappedFiles.MemoryMappedFileOptions options) [0x00060] in <1f993cbf88314b1baa1e10ca917bdc64>:0 
+  at System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile (System.String path, System.IO.FileMode mode, System.String mapName, System.Int64 capacity, System.IO.MemoryMappedFiles.MemoryMappedFileAccess access) [0x00056] in <1f993cbf88314b1baa1e10ca917bdc64>:0 
+  at Verse.MemoryMappedFileSpanWrapper.OpenExistingMmf (System.IO.FileInfo info, System.IO.MemoryMappedFiles.MemoryMappedFileAccess access, System.Boolean suppressExistsCheck) [0x00029] in <46372f5dadbf4af8939e608076251180>:0 
+Verse.MemoryMappedFileSpanWrapper..ctor(FileInfo info)
+Verse.LoadableXmlAsset..ctor(FileInfo file, ModContentPack mod)
+C:\Users\User\Downloads\RimWorld.v1.6.4633.ALL.DLC\RimWorld.v1.6.4633.ALL.DLC\RimWorld.v1.6.4633.ALL.DLC\Mods\3495749827_combat_extended__dev_snapshot\ModPatches\Vanilla Factions Expanded - Settlers\Defs\Vanilla Factions Expanded - Settlers/Recipes_Settlers.xml: unknown parse failure
+Exception reading Alcohol_Chemshine.xml as XML: System.IO.IOException: Could not open file
+[Ref 95FDA74C] Duplicate stacktrace, see ref for original
+Exception reading PawnKinds_Bandits.xml as XML: System.IO.IOException: Could not open file
+[Ref 95FDA74C] Duplicate stacktrace, see ref for original
+Exception reading PawnKinds_Settlers.xml as XML: System.IO.IOException: Could not open file
+[Ref 95FDA74C] Duplicate stacktrace, see ref for original
+Exception reading Scenarios_Classic.xml as XML: System.IO.IOException: Could not open file
+[Ref 95FDA74C] Duplicate stacktrace, see ref for original
+Exception reading TurretGatlingGun.xml as XML: System.IO.IOException: Could not open file
+[Ref 95FDA74C] Duplicate stacktrace, see ref for original
+Exception reading Apparel_Headgear.xml as XML: System.IO.IOException: Could not open file
+[Ref 95FDA74C] Duplicate stacktrace, see ref for original
+Exception reading Apparel_Various.xml as XML: System.IO.IOException: Could not open file
+[Ref 95FDA74C] Duplicate stacktrace, see ref for original
+Exception reading RangedIndustrial.xml as XML: System.IO.IOException: Could not open file
+[Ref 95FDA74C] Duplicate stacktrace, see ref for original
+Exception reading RangedIndustrialGrenades.xml as XML: System.IO.IOException: Could not open file
+[Ref 95FDA74C] Duplicate stacktrace, see ref for original
+Exception reading RangedMedieval.xml as XML: System.IO.IOException: Could not open file
+[Ref 95FDA74C] Duplicate stacktrace, see ref for original
+Caught exception while loading play data but there are active mods other than Core. Resetting mods config and trying again.
+The exception was: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 67C41E15]
+  at Verse.ModContentPack.LoadPatches () [0x0003c] in <46372f5dadbf4af8939e608076251180>:0 
+    - POSTFIX ModSettingsFrameworkMod: Void ModSettingsFramework.ModContentPack_LoadPatches_Patch:Postfix(ModContentPack __instance)
+  at Verse.ModContentPack.get_Patches () [0x00008] in <46372f5dadbf4af8939e608076251180>:0 
+  at Verse.LoadedModManager.ErrorCheckPatches () [0x00018] in <46372f5dadbf4af8939e608076251180>:0 
+  at Verse.LoadedModManager.LoadAllActiveMods (System.Boolean hotReload) [0x000ca] in <46372f5dadbf4af8939e608076251180>:0 
+  at Verse.PlayDataLoader.DoPlayLoad () [0x00026] in <46372f5dadbf4af8939e608076251180>:0 
+    - POSTFIX UnlimitedHugs.HugsLib: Void HugsLib.Patches.PlayDataLoader_Patch:InitModsHook()
+  at Verse.PlayDataLoader.LoadAllPlayData (System.Boolean recovering) [0x0001c] in <46372f5dadbf4af8939e608076251180>:0 
+Tried to use an uninitialized DefOf of type CE_StatDefOf. DefOfs are initialized right after all defs all loaded. Uninitialized DefOfs will return only nulls. (hint: don't use DefOfs as default field values in Defs, try to resolve them in ResolveReferences() instead)
+Tried to use an uninitialized DefOf of type TST_DefOf. DefOfs are initialized right after all defs all loaded. Uninitialized DefOfs will return only nulls. (hint: don't use DefOfs as default field values in Defs, try to resolve them in ResolveReferences() instead)
+Successfully recovered from errors and loaded play data.
+Type HugsLib.UpdateFeatureDef is not a Def type or could not be found, in file UpdateFeatures.xml. Context: <HugsLib.UpdateFeatureDef ParentName="ShowMeYourHands_UpdateFeatureBase"><defName>ShowMeYourHands_1_0_14_0</defName><assemblyVersion>1.0.14.0</assemblyVersion><content>img:resize|caption:There is now an option for resizing the hands depending on the drawsize of the pawn. This should make it look nicer for large or small pawns.
+	
+There is also an option for coloring the hands the same color as worn apparel or armor that covers the hands. It tries to pick the main color of the armor but it is a tricky process so it may not always work.
+|Each update of the mod can also contain more hand-placements for weapons, more customized than the automatic placements. You can see this in the mod options where the color of the weapon in the list shows if it uses the automatic placement, definitions added by this or another mod, or your own custom setting.</content></HugsLib.UpdateFeatureDef>
+Unloading 5 Unused Serialized files (Serialized files now loaded: 5)
+MVCF successfully applied 0 patches
+Unloading 218 unused Assets to reduce memory usage. Loaded Objects now: 31712.
+Total: 652.711600 ms (FindLiveObjects: 5.500900 ms CreateObjectMapping: 3.179600 ms MarkObjects: 642.954900 ms  DeleteObjects: 1.075400 ms)
+
+Could not load Texture2D at 'InnerColonistMarker' in any active mod or in base resources.
+Could not load Texture2D at 'OuterColonistMarker' in any active mod or in base resources.
+Could not load Texture2D at 'InnerAnimalMarker' in any active mod or in base resources.
+Could not load Texture2D at 'OuterAnimalMarker' in any active mod or in base resources.
+Could not load Texture2D at 'InnerEntityMarker' in any active mod or in base resources.
+Could not load Texture2D at 'OuterEntityMarker' in any active mod or in base resources.
+Could not load Texture2D at 'ColorMarker' in any active mod or in base resources.
+Could not load Texture2D at 'ColorBackgroundPattern' in any active mod or in base resources.
+Could not load Texture2D at 'EditorBackgroundPattern' in any active mod or in base resources.
+Could not load Texture2D at 'SwatchBackgroundPattern' in any active mod or in base resources.
+Could not load Texture2D at 'StepperUp' in any active mod or in base resources.
+Could not load Texture2D at 'StepperDown' in any active mod or in base resources.
+Could not load Texture2D at 'Bracket' in any active mod or in base resources.
+Could not load Texture2D at 'ColumnHeaderPreview' in any active mod or in base resources.
+Could not load Texture2D at 'ColumnHeader' in any active mod or in base resources.
+Could not load Texture2D at 'ColumnHeaderSelected' in any active mod or in base resources.
+Could not load Texture2D at 'TagDelete' in any active mod or in base resources.
+Could not load Texture2D at 'DeleteColorButton' in any active mod or in base resources.
+Could not load Texture2D at 'ValueChanger' in any active mod or in base resources.
+Could not load Texture2D at 'RowDrag' in any active mod or in base resources.
+Could not load Texture2D at 'ColorDrag' in any active mod or in base resources.
+Could not find class CameraPlus.DotConfig while resolving node li. Trying to use CameraPlus.DotConfig instead. Full node: <li><conditions><li Class="CameraPlus.AnimalTag" /><li Class="CameraPlus.TameTag"><negated>True</negated></li></conditions><useEdge>False</useEdge><lineColor>RGBA(0.000, 1.000, 1.000, 1.000)</lineColor><lineSelectedColor>RGBA(0.000, 0.500, 0.500, 1.000)</lineSelectedColor><fillSelectedColor>RGBA(0.000, 1.000, 1.000, 0.500)</fillSelectedColor><outlineFactor>0.100000001</outlineFactor><mouseReveals>False</mouseReveals></li>
+Could not find class CameraPlus.AnimalTag while resolving node li. Trying to use CameraPlus.ConditionTag instead. Full node: <li Class="CameraPlus.AnimalTag" />
+SaveableFromNode exception: System.ArgumentException: Can't load abstract class CameraPlus.ConditionTag
+[Ref 3727A41]
+  at Verse.ScribeExtractor.SaveableFromNode[T] (System.Xml.XmlNode subNode, System.Object[] ctorArgs) [0x00143] in <46372f5dadbf4af8939e608076251180>:0 
+Subnode:
+<li Class="CameraPlus.AnimalTag" />
+Could not find class CameraPlus.TameTag while resolving node li. Trying to use CameraPlus.ConditionTag instead. Full node: <li Class="CameraPlus.TameTag"><negated>True</negated></li>
+SaveableFromNode exception: System.ArgumentException: Can't load abstract class CameraPlus.ConditionTag
+[Ref 3727A41] Duplicate stacktrace, see ref for original
+Subnode:
+<li Class="CameraPlus.TameTag"><negated>True</negated></li>
+Could not find class CameraPlus.DotConfig while resolving node li. Trying to use CameraPlus.DotConfig instead. Full node: <li><conditions><li Class="CameraPlus.AnimalTag" /></conditions><lineColor>RGBA(0.000, 0.000, 0.000, 1.000)</lineColor><lineSelectedColor>RGBA(1.000, 1.000, 1.000, 1.000)</lineSelectedColor><fillSelectedColor>RGBA(1.000, 1.000, 1.000, 1.000)</fillSelectedColor><outlineFactor>0.0500000007</outlineFactor><mouseReveals>False</mouseReveals></li>
+Could not find class CameraPlus.AnimalTag while resolving node li. Trying to use CameraPlus.ConditionTag instead. Full node: <li Class="CameraPlus.AnimalTag" />
+SaveableFromNode exception: System.ArgumentException: Can't load abstract class CameraPlus.ConditionTag
+[Ref 3727A41] Duplicate stacktrace, see ref for original
+Subnode:
+<li Class="CameraPlus.AnimalTag" />
+CameraPlus: Found mod at C:\Users\User\Downloads\RimWorld.v1.6.4633.ALL.DLC\RimWorld.v1.6.4633.ALL.DLC\RimWorld.v1.6.4633.ALL.DLC\Mods\867467808_camera
+Combat Extended :: Ammo injected
+Combat Extended :: Bounds pre-generated
+Combat Extended :: Checking Better Turrets
+Combat Extended :: Checking Misc Turrets
+Combat Extended :: Checking SRTS Expanded
+Combat Extended :: Checking SOS2
+Combat Extended :: Vanilla Psycasts Expanded loaded: False
+Combat Extended :: Checking Multiplayer Compat
+Combat Extended :: Checking Vehicle Framework
+<color=#66ffb5>[MeleeAnim]</color> Potential patch conflicts (13):
+<color=#66ffb5>[MeleeAnim]</color> 
+System.Void Verse.PawnRenderer::RenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
+Prefixes:
+  [net.pardeike.rimworld.mod.camera+] Prefix
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+static System.Void Verse.PawnRenderUtility::DrawEquipmentAiming(Verse.Thing eq, UnityEngine.Vector3 drawLoc, System.Single aimAngle)
+Prefixes:
+  [CombatExtended.HarmonyCE] Prefix
+  [CombatExtended.HarmonyCE] Prefix
+  [co.uk.epicguru.meleeanimation] Prefix
+  [OskarPotocki.VEF] Prefix
+  [OskarPotocki.VEF] Prefix
+  [OskarPotocki.VEF] DrawEquipmentAimingPrefix
+Transpilers:
+  [CombatExtended.HarmonyCE] Transpiler
+Postfixes:
+
+static System.Void Verse.PawnGenerator::GenerateGearFor(Verse.Pawn pawn, Verse.PawnGenerationRequest request)
+Prefixes:
+Transpilers:
+Postfixes:
+  [CombatExtended.HarmonyCE] Postfix
+  [co.uk.epicguru.meleeanimation] Postfix
+  [PeteTimesSix.SimpleSidearms] GenerateGearFor
+
+Verse.PreRenderResults Verse.PawnRenderer::ParallelGetPreRenderResults(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon, System.Boolean disableCache)
+Prefixes:
+  [OskarPotocki.VEF] Prefix
+  [com.yayo.yayoAni] Prefix
+Transpilers:
+  [com.yayo.yayoAni] Transpiler
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+virtual System.Boolean RimWorld.Verb_MeleeAttack::TryCastShot()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [PeteTimesSix.SimpleSidearms] TryCastShot
+<color=#66ffb5>[MeleeAnim]</color> Full patch list:
+<color=#66ffb5>[MeleeAnim]</color> 
+System.Void Verse.PawnRenderer::RenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
+Prefixes:
+  [net.pardeike.rimworld.mod.camera+] Prefix
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+static System.Void Verse.PawnRenderUtility::DrawEquipmentAiming(Verse.Thing eq, UnityEngine.Vector3 drawLoc, System.Single aimAngle)
+Prefixes:
+  [CombatExtended.HarmonyCE] Prefix
+  [CombatExtended.HarmonyCE] Prefix
+  [co.uk.epicguru.meleeanimation] Prefix
+  [OskarPotocki.VEF] Prefix
+  [OskarPotocki.VEF] Prefix
+  [OskarPotocki.VEF] DrawEquipmentAimingPrefix
+Transpilers:
+  [CombatExtended.HarmonyCE] Transpiler
+Postfixes:
+
+static System.Void Verse.PawnGenerator::GenerateGearFor(Verse.Pawn pawn, Verse.PawnGenerationRequest request)
+Prefixes:
+Transpilers:
+Postfixes:
+  [CombatExtended.HarmonyCE] Postfix
+  [co.uk.epicguru.meleeanimation] Postfix
+  [PeteTimesSix.SimpleSidearms] GenerateGearFor
+
+System.Void RimWorld.Building_ProximityDetector::RunDetection()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+static System.Collections.Generic.List`1<Verse.FloatMenuOption> RimWorld.FloatMenuMakerMap::GetOptions(System.Collections.Generic.List`1<Verse.Pawn> selectedPawns, UnityEngine.Vector3 clickPos, RimWorld.FloatMenuContext& context)
+Prefixes:
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+System.Boolean Verse.HediffSet::get_HasHead()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+static System.Boolean RimWorld.InvisibilityUtility::IsPsychologicallyInvisible(Verse.Pawn pawn)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void Verse.PawnRenderer::DrawShadowInternal(UnityEngine.Vector3 drawLoc)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+Verse.PreRenderResults Verse.PawnRenderer::ParallelGetPreRenderResults(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon, System.Boolean disableCache)
+Prefixes:
+  [OskarPotocki.VEF] Prefix
+  [com.yayo.yayoAni] Prefix
+Transpilers:
+  [com.yayo.yayoAni] Transpiler
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+System.Void Verse.PawnRenderer::ParallelPreRenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void Verse.PawnRenderTree::ParallelPreDraw(Verse.PawnDrawParms parms)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+static Verse.Pawn RimWorld.PawnUtility::PawnBlockingPathAt(Verse.IntVec3 c, Verse.Pawn forPawn, System.Boolean actAsIfHadCollideWithPawnsJob, System.Boolean collideOnlyWithStandingPawns, System.Boolean forPathFinder, System.Boolean useId)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void RimWorld.Pawn_ApparelTracker::Notify_ApparelChanged()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+virtual System.Void Verse.Pawn::DrawGUIOverlay()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void Verse.Pawn_DrawTracker::Notify_MeleeAttackOn(Verse.Thing Target)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+Verse.BattleLogEntry_MeleeCombat RimWorld.Verb_MeleeAttack::CreateCombatLog(System.Func`2<Verse.ManeuverDef, Verse.RulePackDef> rulePackGetter, System.Boolean alwaysShow)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+virtual System.Boolean RimWorld.Verb_MeleeAttack::TryCastShot()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [PeteTimesSix.SimpleSidearms] TryCastShot
+Failed to load content: [Texture2D] AM/Rope/Rope
+Failed to load content: [Texture2D] AM/Rope/End
+Failed to load content: [Texture2D] AM/Rope/Coiled
+Failed to load content: [Texture2D] AM/BoundPawns/Male
+Failed to load content: [Texture2D] AM/Shadow
+Failed to load content: [Texture2D] AM/Hand
+Failed to load content: [Texture2D] AM/HandClothed
+Failed to load content: [Texture2D] AM/UI/IconExecute
+Failed to load content: [Texture2D] AM/UI/IconGrapple
+Failed to load content: [Texture2D] AM/UI/ExtraGUIWalk
+Failed to load content: [Texture2D] AM/UI/ExtraGUIForce
+Failed to load content: [Texture2D] AM/UI/ExtraGUIWhy
+Failed to load content: [Texture2D] AM/UI/BG/Combined
+Failed to load content: [Texture2D] AM/UI/DuelIcon
+Failed to load content: [Texture2D] AM/UI/HIDE
+Unloading 1 Unused Serialized files (Serialized files now loaded: 7)
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 49.2ms
+<color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 21 weapons.
+<color=#66ffb5>[MeleeAnim]</color> ludeon.rimworld.odyssey 'Odyssey' has 2 missing weapon tweak data.
+<color=#66ffb5>[MeleeAnim]</color> Skipping reporting of missing mod/weapons because user opted out or the feature is disabled by the developer.
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 104.7 ms to detect hits:
+RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
+RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
+CombatExtended.Verb_MeleeAttackCE from CombatExtended
+Tried to use an uninitialized DefOf of type AM_DefOf. DefOfs are initialized right after all defs all loaded. Uninitialized DefOfs will return only nulls. (hint: don't use DefOfs as default field values in Defs, try to resolve them in ResolveReferences() instead)
+<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 1.09 ms:
+Unloading 1197 unused Assets to reduce memory usage. Loaded Objects now: 34123.
+Total: 404.875500 ms (FindLiveObjects: 2.527400 ms CreateObjectMapping: 3.328700 ms MarkObjects: 397.450900 ms  DeleteObjects: 1.568100 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 7)
+Loading asset bundle MuzzleFlash.shaders-windows
+Loaded shader Unlit/AnimatedAdditiveInstanced
+[Muzzle Flash] Shader loaded from MuzzleFlash: Unlit/AnimatedAdditiveInstanced
+Tried to use an uninitialized DefOf of type KeyBindingDefOf. DefOfs are initialized right after all defs all loaded. Uninitialized DefOfs will return only nulls. (hint: don't use DefOfs as default field values in Defs, try to resolve them in ResolveReferences() instead)
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC]
+  at PawnEditor.PawnEditorMod.Keybind () [0x00001] in C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\pawn-editor\Source\PawnEditor\PawnEditorMod.cs:124 
+  at Verse.DebugWindowsOpener.DevToolStarterOnGUI () [0x00000] in <46372f5dadbf4af8939e608076251180>:0 
+    - PREFIX legodude17.pawneditor: Void PawnEditor.PawnEditorMod:Keybind()
+    - PREFIX OskarPotocki.VEF: Void VEF.Sounds.VanillaExpandedFramework_DebugWindowsOpener_DevToolStarterOnGUI_Patch:Prefix()
+  at Verse.UIRoot.UIRootOnGUI () [0x0003e] in <46372f5dadbf4af8939e608076251180>:0 
+    - POSTFIX UnlimitedHugs.HugsLib: Void HugsLib.Patches.UIRoot_OnGUI_Patch:OnGUIHook()
+  at Verse.UIRoot_Entry.UIRootOnGUI () [0x00000] in <46372f5dadbf4af8939e608076251180>:0 
+  at Verse.Root.OnGUI () [0x00046] in <46372f5dadbf4af8939e608076251180>:0 
+    - POSTFIX net.pardeike.rimworld.mod.camera+: Void CameraPlus.Root_OnGUI_Patch:Postfix()
+    - POSTFIX UnlimitedHugs.HugsLib: Void HugsLib.Patches.Root_OnGUI_Patch:OnGUIHookUnfiltered()
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34128.
+Total: 330.610400 ms (FindLiveObjects: 1.971200 ms CreateObjectMapping: 3.110400 ms MarkObjects: 325.437700 ms  DeleteObjects: 0.090700 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34128.
+Total: 330.195500 ms (FindLiveObjects: 2.052400 ms CreateObjectMapping: 3.049800 ms MarkObjects: 325.013700 ms  DeleteObjects: 0.079200 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34128.
+Total: 326.362100 ms (FindLiveObjects: 2.120900 ms CreateObjectMapping: 2.996400 ms MarkObjects: 321.152600 ms  DeleteObjects: 0.091800 ms)
+
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 863A11FC] Duplicate stacktrace, see ref for original
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 3845 frames, [1.0 KB-2.0 KB]: 2 frames, [2.0 KB-4.0 KB]: 6 frames, [4.0 KB-8.0 KB]: 3 frames, [8.0 KB-16.0 KB]: 1 frames, [32.0 KB-64.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 6 frames, [4.0 MB-8.0 MB]: 1 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 5.3 MB
+      Peak Allocated Bytes 5.3 MB
+      Overflow Count 46
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 120.0 KB
+      Peak Allocated Bytes 117.3 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.7 KB
+      Overflow Count 4
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 176 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_ReadCacheIndex]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 2
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 3
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 138 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 507 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 202 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 43582
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 4 Subsections = 4096 buckets. Failed count: 34012
+        32B: 34 Subsections = 17408 buckets. Failed count: 56632
+        48B: 49 Subsections = 16725 buckets. Failed count: 95969
+        64B: 39 Subsections = 9984 buckets. Failed count: 40543
+        80B: 85 Subsections = 17408 buckets. Failed count: 52352
+        96B: 29 Subsections = 4949 buckets. Failed count: 71540
+        112B: 10 Subsections = 1462 buckets. Failed count: 10530
+        128B: 6 Subsections = 768 buckets. Failed count: 9352
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 3588 frames, [32.0 MB-64.0 MB]: 1 frames, [256.0 MB-0.50 GB]: 276 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 20
+      Peak Allocated memory 347.8 MB
+      Peak Large allocation bytes 50.2 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [8.0 MB-16.0 MB]: 3865 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 2
+      Peak Allocated memory 11.9 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 19
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 2394
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 4 Subsections = 4096 buckets. Failed count: 34012
+        32B: 34 Subsections = 17408 buckets. Failed count: 56632
+        48B: 49 Subsections = 16725 buckets. Failed count: 95969
+        64B: 39 Subsections = 9984 buckets. Failed count: 40543
+        80B: 85 Subsections = 17408 buckets. Failed count: 52352
+        96B: 29 Subsections = 4949 buckets. Failed count: 71540
+        112B: 10 Subsections = 1462 buckets. Failed count: 10530
+        128B: 6 Subsections = 768 buckets. Failed count: 9352
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [128.0 KB-256.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 3847 frames, [16.0 MB-32.0 MB]: 16 frames, [256.0 MB-0.50 GB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 4
+      Peak Allocated memory 365.9 MB
+      Peak Large allocation bytes 362.3 MB
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 3596 frames, [128.0 KB-256.0 KB]: 269 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 187.9 KB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 3486
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 4 Subsections = 4096 buckets. Failed count: 34012
+        32B: 34 Subsections = 17408 buckets. Failed count: 56632
+        48B: 49 Subsections = 16725 buckets. Failed count: 95969
+        64B: 39 Subsections = 9984 buckets. Failed count: 40543
+        80B: 85 Subsections = 17408 buckets. Failed count: 52352
+        96B: 29 Subsections = 4949 buckets. Failed count: 71540
+        112B: 10 Subsections = 1462 buckets. Failed count: 10530
+        128B: 6 Subsections = 768 buckets. Failed count: 9352
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 3588 frames, [16.0 MB-32.0 MB]: 276 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 6
+      Peak Allocated memory 18.8 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 275 frames, [8.0 KB-16.0 KB]: 3588 frames, [32.0 KB-64.0 KB]: 1 frames, [0.5 MB-1.0 MB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 0.6 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 4 Subsections = 4096 buckets. Failed count: 34012
+        32B: 34 Subsections = 17408 buckets. Failed count: 56632
+        48B: 49 Subsections = 16725 buckets. Failed count: 95969
+        64B: 39 Subsections = 9984 buckets. Failed count: 40543
+        80B: 85 Subsections = 17408 buckets. Failed count: 52352
+        96B: 29 Subsections = 4949 buckets. Failed count: 71540
+        112B: 10 Subsections = 1462 buckets. Failed count: 10530
+        128B: 6 Subsections = 768 buckets. Failed count: 9352
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 3588 frames, [32.0 KB-64.0 KB]: 1 frames, [256.0 KB-0.5 MB]: 275 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 442.9 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 3865 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 0
+      Peak Allocated memory 0 B
+      Peak Large allocation bytes 0 B
